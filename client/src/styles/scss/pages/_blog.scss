@@ -1,0 +1,43 @@
+.blog-box {
+
+  height: 90vh;
+  min-height: 600px;
+  width: 100%;
+  background-size: cover !important;
+  background-position: center center !important;
+  position: relative;
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  &__container {
+    color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  &__heading {
+    font-size: 4rem;
+    color: $color-white;
+  }
+
+}
+
+////SHOW BLOG PAGE STYLES
+
+.blog{
+  top: 0;
+  left: 0;
+  padding: 10rem;
+  text-align: center;
+
+  &__form{
+    padding: 20rem;
+  }
+  &__post{
+    padding: 10rem;
+    background-color: black;
+  }
+}
+
+form a {
+  padding-left: 2rem;
+}
